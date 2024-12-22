@@ -4,7 +4,7 @@ A library for writing simple test functions in python, and getting proper result
 # Usage
 ```python
 # test.py
-from Tester import Tester
+from DamiTester import Tester
 
 # Create a tester
 tester = Tester()
