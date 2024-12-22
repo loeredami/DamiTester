@@ -12,6 +12,7 @@ tester = Tester()
 # Create a test
 @tester.test
 def hasTest():
+  # if file is not found, it will throw an Exception and therefore fail the test.
   with open("test.txt", "r") as src:
     data = src.read()
 
